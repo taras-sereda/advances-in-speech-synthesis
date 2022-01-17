@@ -12,6 +12,11 @@ AVD(automated video dubbing), TTS with lip sync constraints.
 Vocoders (spectrogram to waveform):
 
 [Parallel WaveGAN](https://arxiv.org/abs/1910.11480):
+
+unofficial implementation: https://github.com/kan-bayashi/ParallelWaveGAN
+
+official samples: https://r9y9.github.io/demos/projects/icassp2020/
+
 - distilation free, parallel, wavenet like (no casual convolutions) vocoder.
 - optimized by joint minimization of adversarial loss and multi-resolution STFT to capture time-frequencty distribution of realistic speech.
 - multi-resolution loss itself consists of **spectral convergence** loss (emphesizes high energy components of spectrum) and **l1_log_stft** loss (emphesizes low energy components). Resolutions: [10, 25, 50] ms
