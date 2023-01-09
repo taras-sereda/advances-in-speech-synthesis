@@ -1,5 +1,12 @@
 # advances-in-speech-synthesis
 
+Self-supervised learning:
+[UNSUPERVISED PRETRAINING TRANSFERS WELL ACROSS LANGUAGES](https://arxiv.org/pdf/2002.02848.pdf):
+- a CPC based approach with slight modifications, where LSTM is used instead of GRU.
+- stabilization of training, by replacing batch normalization with channel-wise normalization layer.
+- linear classificator is replaced with 1 layer transformer. The intuitions is that it's hard to represent outputs as independent linearly separable units. Since phonemes themselves are just discrete abstractions of a continues singnal.
+
+
 AVD(automated video dubbing), TTS with lip sync constraints.
 
 [Neural Dubber](https://arxiv.org/abs/2110.08243):
