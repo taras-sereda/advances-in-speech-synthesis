@@ -1,6 +1,7 @@
 # advances-in-speech-synthesis
 
 Self-supervised learning:
+
 [UNSUPERVISED PRETRAINING TRANSFERS WELL ACROSS LANGUAGES](https://arxiv.org/pdf/2002.02848.pdf):
 - a CPC based approach with slight modifications, where LSTM is used instead of GRU.
 - stabilization of training, by replacing batch normalization with channel-wise normalization layer.
