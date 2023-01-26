@@ -1,6 +1,8 @@
 # advances-in-speech-synthesis
 
 Self-supervised learning:
+[VATT: Transformers for Multimodal Self-Supervised Learning from Raw Video, Audio and Text](https://arxiv.org/abs/2104.11178)
+
 
 [UNSUPERVISED PRETRAINING TRANSFERS WELL ACROSS LANGUAGES](https://arxiv.org/pdf/2002.02848.pdf):
 - a CPC based approach with slight modifications, where LSTM is used instead of GRU.
